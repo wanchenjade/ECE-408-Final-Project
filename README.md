@@ -111,6 +111,7 @@ More detail available here: http://www.mas.ncl.ac.uk/~ntmwn/compare2trees/
 The tree should be the same as the tree on Wiki 
 https://en.wikipedia.org/wiki/Neighbor_joining
 
+The result on my computer is (((A0: 2, A1: 3): 3, A2: 4): 2, A3: 2, A4: 1)
 Convention: a = A0, b = A1, c = A2, d = A3, e = A4, u,v are internal nodes, doesn't have name in Newick format
 
 **GPU accelerated version:**
@@ -122,6 +123,9 @@ Convention: a = A0, b = A1, c = A2, d = A3, e = A4, u,v are internal nodes, does
 * Run the executable: ./nj
 ```
 The tree should have the same shape as the tree of the sequential version and the tree on the example page.        
+
+The result on my computer is (((A0: 2, A1: 3): 3, A2: 4): 2, A4: 1, A3: 2)
+**Note**: The result on GPU flips A3 and A4 order.
 
 ### To test for bigger test case:
 Since we don't have the code to generate a distance matrix from a real dataset, we use mock data to test
