@@ -80,6 +80,9 @@ More detail available here: http://www.mas.ncl.ac.uk/~ntmwn/compare2trees/
   The tree should have the same shape as the tree on this page (Source tab)
   http://www.southampton.ac.uk/~re1u06/teaching/upgma/
   
+  The result on my computer is:
+  ((((A0: 4.000000, A3: 4.000000): 4.250000, ((A1: 0.500000, A5: 0.500000): 5.750000, A6: 6.250000): 2.000000): 6.250000, A2: 14.500000): 2.500000, A4: 17.000000)
+
   Convention: A0 = A, A1 = B, A2 = C, A3 = D, A4 = E, A5 = F, A6 = G
   
   **GPU accelerated version:**
@@ -91,6 +94,9 @@ More detail available here: http://www.mas.ncl.ac.uk/~ntmwn/compare2trees/
   * Run the executable: ./upgma
   ```
   The tree should have the same shape as the tree of the sequential version and the tree on the example page.
+
+  The result on my computer is: 
+  ((((A0: 4.000000, A3: 4.000000): 4.250000, ((A1: 0.500000, A5: 0.500000): 5.750000, A6: 6.250000): 2.000000): 6.250000, A2: 14.500000): 2.500000, A4: 17.000000)
 
 **Example 2:** we want to compare the result of sequential and GPU-accelerated versions of NJ
 
