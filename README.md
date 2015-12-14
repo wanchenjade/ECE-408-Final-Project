@@ -29,6 +29,7 @@ In our project, we parallelize two popular heuristic methods:
 
 ## How to visualize the printed tree:
 Compare2Trees: pairwise comparison of phylogenies
+
 More detail available here: http://www.mas.ncl.ac.uk/~ntmwn/compare2trees/
 
 ## How to compile:
